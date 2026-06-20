@@ -37,13 +37,19 @@ return (
         />
 
         <div className="hidden gap-8 font-semibold text-gray-700 md:flex">
-          <a href="#">Home</a>
-          <a href="#news">News</a>
-          <a href="#about">About</a>
-        </div>
+  <a href="#">Home</a>
+  <a href="#news">News</a>
+</div>
 
         <button className="rounded-xl bg-pink-500 px-5 py-2 text-white hover:bg-pink-600">
-          Discord
+       <a
+  href="https://www.paypal.com/ncp/payment/7DGQJPYMJ4STA"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-xl bg-pink-500 px-5 py-2 text-white hover:bg-pink-600"
+>
+  💖 Support Us!
+</a>
         </button>
       </div>
     </nav>
