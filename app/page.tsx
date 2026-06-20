@@ -94,11 +94,6 @@ export default function Home() {
               key={pet}
               className="rounded-3xl bg-white p-5 text-center shadow"
             >
-              <img
-                src="https://placehold.co/250x250"
-                alt={pet}
-                className="mb-4 w-full rounded-2xl"
-              />
 
               <h3 className="text-2xl font-bold text-pink-500">{pet}</h3>
             </div>
