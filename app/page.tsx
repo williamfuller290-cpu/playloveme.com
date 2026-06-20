@@ -1,5 +1,3 @@
-const features = ["Adopt Pets", "Build Homes", "Make Friends", "Explore"];
-
 const pets = ["Puppy", "Kitten", "Bunny", "Dragon", "Bee"];
 
 const updates = [
@@ -73,20 +71,6 @@ return (
     </section>
 
     {/* Features */}
-    <section className="mx-auto max-w-7xl px-6 py-16">
-      <div className="grid gap-6 md:grid-cols-4">
-        {features.map((feature) => (
-          <div
-            key={feature}
-            className="rounded-3xl bg-white/90 p-8 text-center shadow-xl backdrop-blur-sm"
-          >
-            <h3 className="text-xl font-bold text-pink-500">
-              {feature}
-            </h3>
-          </div>
-        ))}
-      </div>
-    </section>
 
     {/* Upcoming News */}
     <section
