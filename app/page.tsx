@@ -48,26 +48,24 @@ export default function Home() {
 
     <section className="bg-white/60 backdrop-blur-sm">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-10 px-6 py-20 lg:flex-row">
-          <div className="flex-1">
-            <h2 className="mb-4 text-6xl font-extrabold text-pink-500 md:text-7xl">
-              LOVE ME!
-            </h2>
+         <div className="flex-1">
+  <img
+    src="/love-me-logo.png"
+    alt="Love Me"
+    className="mb-8 w-full max-w-[650px]"
+  />
 
-            <p className="mb-8 text-2xl font-semibold text-pink-700">
-              Adopt adorable pets, build dream homes, and play with friends!
-            </p>
-
-            <button className="rounded-full bg-pink-500 px-10 py-5 text-xl font-bold text-white hover:bg-pink-600">
-              🎮 Play on Roblox
-            </button>
-          </div>
+  <button className="bg-pink-500 hover:bg-pink-600 text-white text-xl px-10 py-5 rounded-full font-bold shadow-lg">
+    🎮 Play on Roblox
+  </button>
+</div>
 
           <div className="flex-1">
             <img
-              src="https://placehold.co/700x500"
-              alt="Hero"
-              className="w-full rounded-3xl shadow-xl"
-            />
+    src="/700x500.png"
+     alt="Summer Update"
+     className="w-full rounded-3xl shadow-xl"
+/>
           </div>
         </div>
       </section>
