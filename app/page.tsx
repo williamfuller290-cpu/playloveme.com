@@ -19,7 +19,7 @@ const updates = [
 
 export default function Home() {
   return (
-    <main
+  <main
   className="min-h-screen"
   style={{
     backgroundImage: "url('/LMWebback.png')",
