@@ -19,7 +19,15 @@ const updates = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-pink-50">
+    <main
+  className="min-h-screen"
+  style={{
+    backgroundImage: "url('/LMWebback.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundAttachment: "fixed",
+  }}
+>
       <nav className="bg-white shadow-sm">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <h1 className="text-3xl font-bold text-pink-500">💖 Love Me!</h1>
@@ -38,7 +46,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <section className="bg-gradient-to-b from-pink-200 to-pink-50">
+    <section className="bg-white/60 backdrop-blur-sm">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-10 px-6 py-20 lg:flex-row">
           <div className="flex-1">
             <h2 className="mb-4 text-6xl font-extrabold text-pink-500 md:text-7xl">
